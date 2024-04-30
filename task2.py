@@ -23,3 +23,10 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+import os
+os.system('cls')
+list = []
+for i in range(1,6):    
+    x = str(input(f"Enter word {i}: "))
+    list.insert(i, x)
+print(list)
